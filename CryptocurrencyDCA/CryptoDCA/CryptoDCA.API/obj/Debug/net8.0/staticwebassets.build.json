@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3ZQJ8bxtYZ+08OzsaN/N1dG54BpTZuSLTI5NbhYokJQ=",
+  "Source": "CryptoDCA.API",
+  "BasePath": "_content/CryptoDCA.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

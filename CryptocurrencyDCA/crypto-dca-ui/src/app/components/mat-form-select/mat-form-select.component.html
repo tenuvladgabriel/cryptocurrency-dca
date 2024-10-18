@@ -1,0 +1,11 @@
+<form [formGroup]="form" class="form">
+  @if (display) {
+    <mat-form-field appearance="fill">
+      <mat-label>{{ labelName }}</mat-label>
+      <mat-select [formControlName]="propertyFormName" required>
+        <mat-option>--</mat-option>
+      </mat-select>
+      <mat-error *ngIf="form.get(propertyFormName)?.hasError('required')">Please choose a value</mat-error>
+    </mat-form-field>
+  }
+</form>

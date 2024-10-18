@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoDCA.API", "CryptoDCA.API\CryptoDCA.API.csproj", "{64779415-41B2-46BB-B45E-E8D6334A01BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoDCA.Core", "CryptoDCA.Core\CryptoDCA.Core.csproj", "{462BF338-4692-4842-AB6D-C7F8712333E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoDCA.Application", "CryptoDCA.Application\CryptoDCA.Application.csproj", "{756C8834-23DF-4F88-B383-516A0D91A3B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoDCA.Infrastructure", "CryptoDCA.Infrastructure\CryptoDCA.Infrastructure.csproj", "{D461C875-68F9-4D34-88F9-B3C038004E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64779415-41B2-46BB-B45E-E8D6334A01BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64779415-41B2-46BB-B45E-E8D6334A01BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64779415-41B2-46BB-B45E-E8D6334A01BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64779415-41B2-46BB-B45E-E8D6334A01BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462BF338-4692-4842-AB6D-C7F8712333E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462BF338-4692-4842-AB6D-C7F8712333E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462BF338-4692-4842-AB6D-C7F8712333E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462BF338-4692-4842-AB6D-C7F8712333E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C8834-23DF-4F88-B383-516A0D91A3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C8834-23DF-4F88-B383-516A0D91A3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C8834-23DF-4F88-B383-516A0D91A3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C8834-23DF-4F88-B383-516A0D91A3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D461C875-68F9-4D34-88F9-B3C038004E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D461C875-68F9-4D34-88F9-B3C038004E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D461C875-68F9-4D34-88F9-B3C038004E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D461C875-68F9-4D34-88F9-B3C038004E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

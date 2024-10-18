@@ -1,0 +1,32 @@
+﻿<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" class="mat-table">
+
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef> Date</th>
+      <td mat-cell *matCellDef="let element">{{ element.date | date }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="investedAmount">
+      <th mat-header-cell *matHeaderCellDef> Invested Amount</th>
+      <td mat-cell *matCellDef="let element">{{ element.investedAmount | currency }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="cryptoAmount">
+      <th mat-header-cell *matHeaderCellDef> Cryptocurrency Amount</th>
+      <td mat-cell *matCellDef="let element">{{ element.cryptoAmount }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="valueToday">
+      <th mat-header-cell *matHeaderCellDef> Value Today</th>
+      <td mat-cell *matCellDef="let element">{{ element.valueToday | currency }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="roi">
+      <th mat-header-cell *matHeaderCellDef> ROI</th>
+      <td mat-cell *matCellDef="let element">{{ element.roi | percent }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

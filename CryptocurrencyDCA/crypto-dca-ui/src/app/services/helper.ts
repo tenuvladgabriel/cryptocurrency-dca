@@ -1,0 +1,1 @@
+import {Page} from "../components/app/app.component";export const pages: Page[] = [  {    name: 'Home',    link: '/home'  },  {    name: 'Investments',    link: '/investments'  },  {    name: 'Cryptocurrencies',    link: '/cryptocurrencies'  },];
